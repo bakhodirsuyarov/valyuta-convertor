@@ -14,17 +14,21 @@
         <h1 class="konvertor-title">
           CURRENCY CONVERTOR
         </h1>
-       <form class="konvertor-currency js-form" method="GET">
-        <input class="currency-input js-input" type="number" name="currency">
-        <select class="currency-select js-select" name="select" id="select">
-          <option value="10641">USD</option>
-          <option value="11356">EURO</option>
-          <option value="14942">Dirham</option>
-        </select>
-        <output class="currency-output js-output"></output>
-       </div>
-       <button class="currency-btn js-button">convert</button>
-      </form>
+        <form class="konvertor-currency js-form" method="GET">
+          <div class="konvertor-currency__inner">
+            <input class="currency-input js-input" type="number" name="currency" placeholder="Summa">
+            <select class="currency-select js-select" name="select" id="select">
+              <option value="10641">USD</option>
+              <option value="11356">EURO</option>
+              <option value="14942">Dirham</option>
+            </select>
+            <output class="currency-output js-output">
+              <span class="currency-output__span">0.0 so'm</span>
+            </output>
+          </div>
+          <button class="currency-btn js-button">convert</button>
+        </form>
+      </div>
     </div>
 
 

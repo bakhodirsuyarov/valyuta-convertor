@@ -18,7 +18,6 @@ elInput.addEventListener('keyup', function() {
 });
 
 
-
 elForm.addEventListener('submit', function(evt){
   evt.preventDefault()
   let natija = Number(elInputSum.value) / Number(elSelectSum.value);

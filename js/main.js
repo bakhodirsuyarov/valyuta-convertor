@@ -11,4 +11,9 @@ elForm.addEventListener('submit', function(evt) {
   elOutput.textContent = resault.toFixed(2);
 });
 
+elInput.addEventListener('keyup', function() {
 
+  let resault = Number(elInput.value) * Number(elSelect.value);
+
+  elOutput.textContent = resault.toFixed(2);
+});
